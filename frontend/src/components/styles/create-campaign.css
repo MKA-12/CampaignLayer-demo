@@ -1,0 +1,129 @@
+.create-main_ {
+    width: 100px;
+    color: red;
+}
+
+.create-header {
+    /* width: 60%; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #352B42;
+    padding: 0.5rem;
+    margin: 0.25rem auto;
+}
+
+#create-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.publish-btn {
+    background: #294BFC;
+    border-radius: 6px;
+    border: 0;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    padding: 12px 20px;
+    display: inline;
+}
+
+.back-btn {
+    color: #6096FF;
+    padding: 1rem;
+    display: inline;
+    /* display: flex;
+    flex-direction: row;
+    justify-content: flex-end;     */
+}
+
+.back-btn:hover {
+    cursor: pointer;
+}
+
+.field-title {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    padding: 0.25rem 0;
+    color: #6096FF;
+}
+
+.field-description {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    padding: 0.25rem 0;
+    color: #7F86AD;
+}
+
+.create-form {
+    /* width: 55%; */
+    padding: 1rem 0;
+}
+
+.field {
+    padding: 0.5rem;
+}
+
+input[type="datetime-local"] {
+    margin: 0.5rem 0;
+}
+
+.form-control {
+    margin: 0.25rem 0;
+}
+
+.rewards-component {
+    margin: 1rem 0;
+    padding: 1rem 0;
+}
+
+.rewards-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    /* padding: 2rem 0; */
+}
+
+.reward-item {
+    margin: 1rem 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 1rem;
+    border: 0;
+    background: #1A1A22;
+}
+
+.reward-img {
+    padding: 1rem;
+    border-radius: 2rem;
+}
+
+.reward-item-footer {
+    background: none;
+    border: none;
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.reward-span {
+    margin: 0 1rem;
+}
+
+.reward-end-date {
+    color: #F4F3EE;
+}
+
+.reward-btn {
+    margin: 1rem;
+    padding: auto 1rem;
+}

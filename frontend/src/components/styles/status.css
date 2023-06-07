@@ -1,0 +1,27 @@
+.status-badge {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 12px;
+    gap: 10px;
+
+    width: 76px;
+    height: 28px;
+
+    border-radius: 20px;
+
+    color: #201E28;
+
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 1.5rem;
+}
+
+.status-badge div {
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    background: #201E28;
+}

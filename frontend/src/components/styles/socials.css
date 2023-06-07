@@ -1,0 +1,32 @@
+.instagram-icon {
+    background-clip: text;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    margin: 0.25rem;
+    /* needed for browser support */
+    -webkit-background-clip: text;
+    /* see https://caniuse.com/#feat=background-img-opts */
+    -webkit-text-fill-color: transparent;
+    /* https://caniuse.com/#feat=text-stroke */
+}
+
+.spotify-icon {
+    color: #1DB954;
+    margin: 0.25rem;
+}
+
+.twitter-icon {
+    color: #00ACEE;
+    margin: 0.25rem;
+}
+
+.socials-col,
+.socials-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.socials-row {
+    gap: 2rem;
+}
